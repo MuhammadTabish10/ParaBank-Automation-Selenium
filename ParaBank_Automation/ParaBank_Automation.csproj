@@ -451,6 +451,8 @@
     <Compile Include="ParaBank\OpenNewAccountPage\OpenNewAccountPage.cs" />
     <Compile Include="ParaBank\RegisterPage\RegisterTestExecution.cs" />
     <Compile Include="ParaBank\RegisterPage\RegisterPage.cs" />
+    <Compile Include="ParaBank\TransferFundsPage\TransferFundsTestExecution.cs" />
+    <Compile Include="ParaBank\TransferFundsPage\TransferFundsPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

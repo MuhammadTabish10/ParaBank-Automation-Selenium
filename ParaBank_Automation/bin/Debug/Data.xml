@@ -2,7 +2,7 @@
 <Automation>
 	<RegisterTestExecution>
 		<RegisterWithValidDetailsTC_001>
-			<firstName>Tabish877774512</firstName>
+			<firstName>Tabish8777742512</firstName>
 			<lastName>Rashid</lastName>
 			<address>B-02 Gulistan-e-Johar Block-19</address>
 			<city>Karachi</city>
@@ -10,7 +10,7 @@
 			<zipCode>74200</zipCode>
 			<phone>03353183329</phone>
 			<ssn>2201002</ssn>
-			<userName>Tabish877747782</userName>
+			<userName>Tabish8772747782</userName>
 			<password>tabish123</password>
 			<confirm>tabish123</confirm>
 			<TextExpected>Log Out</TextExpected>
@@ -58,8 +58,8 @@
 	</RegisterTestExecution>
 	<LoginTestExecution>
 		<LoginWithValidUsernamePasswordTC_001>
-			<user>arham1111</user>
-			<pass>123</pass>
+			<user>john</user>
+			<pass>demo</pass>
 			<expectedtext>Log Out</expectedtext>
 		</LoginWithValidUsernamePasswordTC_001>
 		<LoginWithInvalidUsernamePasswordTC_002>
@@ -79,12 +79,36 @@
 			<typeValue>Credit</typeValue>
 			<expectedtext>No transactions found.</expectedtext>
 		</AccountsOverviewTC_001>
+		<AccountsOverviewTC_001>
+			<monthValue>March</monthValue>
+			<typeValue>Debit</typeValue>
+			<expectedtext>No transactions found.</expectedtext>
+		</AccountsOverviewTC_001>
 	</AccountsOverviewTestExecution>
 	<OpenNewAccountTestExecution>
 		<OpenNewAccountTC_001>
 			<typeValue>SAVINGS</typeValue>
-			<accountId>13455</accountId>
+			<accountId>13344</accountId>
+			<expectedtext>Account Opened!</expectedtext>
+		</OpenNewAccountTC_001>
+		<OpenNewAccountTC_001>
+			<typeValue>CHECKING</typeValue>
+			<accountId>13344</accountId>
 			<expectedtext>Account Opened!</expectedtext>
 		</OpenNewAccountTC_001>
 	</OpenNewAccountTestExecution>
+	<TransferFundsTestExecution>
+		<TransferFundsTC_001>
+			<amount>544</amount>
+			<fromAcc>13344</fromAcc>
+			<toAcc>13344</toAcc>
+			<expected>Transfer Complete!</expected>
+		</TransferFundsTC_001>
+		<TransferFundsWithEmptyAmountTC_002>
+			<amount>544</amount>
+			<fromAcc>13344</fromAcc>
+			<toAcc>13344</toAcc>
+			<expected>The amount cannot be empty. </expected>
+		</TransferFundsWithEmptyAmountTC_002>
+	</TransferFundsTestExecution>
 </Automation>
