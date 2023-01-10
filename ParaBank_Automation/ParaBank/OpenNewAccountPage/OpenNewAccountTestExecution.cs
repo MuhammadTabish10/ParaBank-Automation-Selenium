@@ -57,7 +57,7 @@ namespace ParaBank_Automation
             string accountId = TestContext.DataRow["accountId"].ToString();
             string expectedtext = TestContext.DataRow["expectedtext"].ToString();
             #endregion
-            loginPage.Login("arham111", "123", "Log Out");
+            loginPage.Login("zaeem", "zaeem11", "Log Out");
             openNewAccountPage.OpenNewAccount(typeValue, accountId, expectedtext);
         }
     }

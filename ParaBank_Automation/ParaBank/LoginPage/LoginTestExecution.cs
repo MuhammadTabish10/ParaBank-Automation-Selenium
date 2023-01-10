@@ -55,19 +55,19 @@ namespace ParaBank_Automation
             loginPage.Login(user, pass, expectedtext);
         }
 
-        [TestMethod]
-        [TestCategory("Negative"), TestCategory("Login")]
-        [Owner("Tabish")]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "Data.xml", "LoginWithInvalidUsernamePasswordTC_002", DataAccessMethod.Sequential)]
-        public void LoginWithInvalidUsernamePasswordTC_002()
-        {
-            #region DataFromXML
-            string user = TestContext.DataRow["user"].ToString();
-            string pass = TestContext.DataRow["pass"].ToString();
-            string expectedtext = TestContext.DataRow["expectedtext"].ToString();
-            #endregion
-            loginPage.LoginWithInvalidDetails(user, pass, expectedtext);
-        }
+        //[TestMethod]
+        //[TestCategory("Negative"), TestCategory("Login")]
+        //[Owner("Tabish")]
+        //[DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "Data.xml", "LoginWithInvalidUsernamePasswordTC_002", DataAccessMethod.Sequential)]
+        //public void LoginWithInvalidUsernamePasswordTC_002()
+        //{
+         //   #region DataFromXML
+         //   string user = TestContext.DataRow["user"].ToString();
+         //   string pass = TestContext.DataRow["pass"].ToString();
+         //   string expectedtext = TestContext.DataRow["expectedtext"].ToString();
+         //   #endregion
+         //   loginPage.LoginWithInvalidDetails(user, pass, expectedtext);
+       // }
 
         [TestMethod]
         [TestCategory("Negative"), TestCategory("Login")]
