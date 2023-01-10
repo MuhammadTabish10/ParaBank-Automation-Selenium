@@ -2,7 +2,7 @@
 <Automation>
 	<RegisterTestExecution>
 		<RegisterWithValidDetailsTC_001>
-			<firstName>Tabish8882527512</firstName>
+			<firstName>Tabish877774512</firstName>
 			<lastName>Rashid</lastName>
 			<address>B-02 Gulistan-e-Johar Block-19</address>
 			<city>Karachi</city>
@@ -10,7 +10,7 @@
 			<zipCode>74200</zipCode>
 			<phone>03353183329</phone>
 			<ssn>2201002</ssn>
-			<userName>Tabish878688882</userName>
+			<userName>Tabish877747782</userName>
 			<password>tabish123</password>
 			<confirm>tabish123</confirm>
 			<TextExpected>Log Out</TextExpected>
@@ -58,8 +58,8 @@
 	</RegisterTestExecution>
 	<LoginTestExecution>
 		<LoginWithValidUsernamePasswordTC_001>
-			<user>zaeem</user>
-			<pass>zaeem11</pass>
+			<user>arham1111</user>
+			<pass>123</pass>
 			<expectedtext>Log Out</expectedtext>
 		</LoginWithValidUsernamePasswordTC_001>
 		<LoginWithInvalidUsernamePasswordTC_002>
@@ -83,7 +83,7 @@
 	<OpenNewAccountTestExecution>
 		<OpenNewAccountTC_001>
 			<typeValue>SAVINGS</typeValue>
-			<accountId>14343</accountId>
+			<accountId>13455</accountId>
 			<expectedtext>Account Opened!</expectedtext>
 		</OpenNewAccountTC_001>
 	</OpenNewAccountTestExecution>

@@ -52,7 +52,7 @@ namespace ParaBank_Automation
             string typeValue = TestContext.DataRow["typeValue"].ToString();
             string expectedtext = TestContext.DataRow["expectedtext"].ToString();
             #endregion
-            loginPage.Login("zaeem", "zaeem11", "Log Out");
+            loginPage.Login("arham1111", "123", "Log Out");
             accountsOverviewPage.AccountsOverview(monthValue, typeValue, expectedtext);
         }
     }
