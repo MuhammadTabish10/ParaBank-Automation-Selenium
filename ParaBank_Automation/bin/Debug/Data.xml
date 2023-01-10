@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Automation>
+	<RegisterTestExecution>
+		<RegisterWithValidDetailsTC_001>
+			<firstName>Tabish88833235274512</firstName>
+			<lastName>Rashid</lastName>
+			<address>B-02 Gulistan-e-Johar Block-19</address>
+			<city>Karachi</city>
+			<state>Sindh</state>
+			<zipCode>74200</zipCode>
+			<phone>03353183329</phone>
+			<ssn>2201002</ssn>
+			<userName>Tabish3382786488882</userName>
+			<password>tabish123</password>
+			<confirm>tabish123</confirm>
+			<TextExpected>Log Out</TextExpected>
+		</RegisterWithValidDetailsTC_001>
+		<RegisterWithEmptyDetailsTC_002>
+			<fnExpected>First name is required.</fnExpected>
+			<lnExpected>Last name is required.</lnExpected>
+			<addExpected>Address is required.</addExpected>
+			<cExpected>City is required.</cExpected>
+			<stExpected>State is required.</stExpected>
+			<zcExpected>Zip Code is required.</zcExpected>
+			<ssnExpected>Social Security Number is required.</ssnExpected>
+			<userExpected>Username is required.</userExpected>
+			<passExpected>Password is required.</passExpected>
+			<conpassExpected>Password confirmation is required.</conpassExpected>
+		</RegisterWithEmptyDetailsTC_002>
+		<RegisterWithCreatedUserDetailsTC_003>
+			<firstName>Tabish</firstName>
+			<lastName>Rashid</lastName>
+			<address>B-02 Gulistan-e-Johar Block-19</address>
+			<city>Karachi</city>
+			<state>Sindh</state>
+			<zipCode>74200</zipCode>
+			<phone>03353183329</phone>
+			<ssn>2201002</ssn>
+			<userName>Tabish10</userName>
+			<password>tabish123</password>
+			<confirm>tabish123</confirm>
+			<TextExpected>This username already exists.</TextExpected>
+		</RegisterWithCreatedUserDetailsTC_003>
+		<RegisterWithNotMatchPasswordsDetailsTC_004>
+			<firstName>Tabish</firstName>
+			<lastName>Rashid</lastName>
+			<address>B-02 Gulistan-e-Johar Block-19</address>
+			<city>Karachi</city>
+			<state>Sindh</state>
+			<zipCode>74200</zipCode>
+			<phone>03353183329</phone>
+			<ssn>2201002</ssn>
+			<userName>Tabish10</userName>
+			<password>tabish123</password>
+			<confirm>tabish232455</confirm>
+			<TextExpected>Passwords did not match.</TextExpected>
+		</RegisterWithNotMatchPasswordsDetailsTC_004>
+	</RegisterTestExecution>
+	<LoginTestExecution>
+		<LoginWithValidUsernamePasswordTC_001>
+			<user>arham111</user>
+			<pass>123</pass>
+			<expectedtext>Log Out</expectedtext>
+		</LoginWithValidUsernamePasswordTC_001>
+		<LoginWithInvalidUsernamePasswordTC_002>
+			<user>tabibhsh</user>
+			<pass>23h232</pass>
+			<expectedtext>An internal error has occurred and has been logged.</expectedtext>
+		</LoginWithInvalidUsernamePasswordTC_002>
+		<LoginWithEmptyUsernamePasswordTC_003>
+			<user></user>
+			<pass></pass>
+			<expectedtext>Please enter a username and password.</expectedtext>
+		</LoginWithEmptyUsernamePasswordTC_003>
+	</LoginTestExecution>
+	<AccountsOverviewTestExecution>
+		<AccountsOverviewTC_001>
+			<monthValue>All</monthValue>
+			<typeValue>Credit</typeValue>
+			<expectedtext>No transactions found.</expectedtext>
+		</AccountsOverviewTC_001>
+	</AccountsOverviewTestExecution>
+	<OpenNewAccountTestExecution>
+		<OpenNewAccountTC_001>
+			<typeValue>SAVINGS</typeValue>
+			<accountId>14232</accountId>
+			<expectedtext>Account Opened!</expectedtext>
+		</OpenNewAccountTC_001>
+	</OpenNewAccountTestExecution>
+</Automation>

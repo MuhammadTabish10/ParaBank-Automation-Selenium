@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="01a0c87c-229e-4bd1-b2fc-1347f8a1009d" name="muham@DESKTOP-VLT1FDS 2023-01-07 02:17:42" runUser="DESKTOP-VLT1FDS\muham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-01-07T02:17:42.1931124+05:00" queuing="2023-01-07T02:17:42.1931124+05:00" start="2023-01-07T02:17:05.7922983+05:00" finish="2023-01-07T02:17:42.2670955+05:00" />
+  <TestSettings name="default" id="e045aa6a-8d23-41e4-a462-552b2a56ab33">
+    <Deployment runDeploymentRoot="muham_DESKTOP-VLT1FDS_2023-01-07_02_17_42" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="65223dc2-52e8-4614-b101-a72ffe381fd4" testId="9ad5e7f3-125b-4700-ae94-0da6be9f4215" testName="OpenNewAccountTC_001 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:32.2886454" startTime="2023-01-07T02:17:07.9264235+05:00" endTime="2023-01-07T02:17:41.8142273+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65223dc2-52e8-4614-b101-a72ffe381fd4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="OpenNewAccountTC_001 (Data Row 0)" storage="c:\users\muham\source\repos\parabank_automation\parabank_automation\bin\debug\parabank_automation.dll" id="9ad5e7f3-125b-4700-ae94-0da6be9f4215">
+      <Owners>
+        <Owner name="Zaeem" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="OpenNewAccount" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="65223dc2-52e8-4614-b101-a72ffe381fd4" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\ParaBank_Automation\ParaBank_Automation\bin\Debug\ParaBank_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="ParaBank_Automation.OpenNewAccountTestExecution" name="OpenNewAccountTC_001" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="9ad5e7f3-125b-4700-ae94-0da6be9f4215" executionId="65223dc2-52e8-4614-b101-a72ffe381fd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
